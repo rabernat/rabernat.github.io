@@ -431,6 +431,16 @@ section h3.section-subheading {
 
 /* all these tags ABOVE used to have a id */
 
+ol.bibliography {
+    transform: rotate(180deg);
+    list-style-position: outside;
+}
+
+ol.bibliography > li {
+    transform: rotate(-180deg);
+    margin-bottom: 15px;
+}
+
 
 @media(min-width:767px) {
     .portfolio-item {

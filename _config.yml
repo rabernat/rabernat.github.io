@@ -33,3 +33,24 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Bibliography settings
+scholar:
+  style: american-meteorological-society
+  locale: en
+
+  sort_by: year
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
