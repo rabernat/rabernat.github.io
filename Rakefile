@@ -3,10 +3,10 @@ require "tmpdir"
 
 require "bundler/setup"
 require "jekyll"
-
+require "jekyll/scholar"
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "ixti/ixti.github.com"
+GITHUB_REPONAME = "rabernat/rabernat.github.io"
 
 
 desc "Generate blog files"
