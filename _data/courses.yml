@@ -1,0 +1,10 @@
+- title: Introduction to Physical Oceanography
+  pic: intro_po.jpg
+  url: "http://www.columbia.edu/cu/bulletin/uwb/subj/EESC/W4210-20151-001/"
+  description: "Physical properties of seawater, water masses and their distribution, sea-air interaction influence on the ocean structure, basic ocean circulation pattern, relation of diffusion and advection with respect to distribution of ocean properties, ocean tides and waves, turbulence, and introduction to ocean dynamics."
+
+- title: Geophysical Fluid Dynamics
+  pic: gfd.jpg
+  url: "http://www.columbia.edu/cu/bulletin/uwb/subj/EESC/W4210-20151-001/"
+  description: "Fundamental concepts in the dynamics of rotating stratified flows. Geostrophic and hydrostatic balances, potential vorticity, f and beta plane approximations, gravity and Rossby waves, geostrophic adjustment and quasigeostrophy, baroclinic and barotropic instabilities."
+
