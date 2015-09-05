@@ -97,10 +97,88 @@ layout: default
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Code</h2>
-                    <h3 class="section-subheading text-muted">Software is the machinery for transforming raw data and ideas into scientific results. The scientific community is becoming increasingly aware that open access to research code is an essential ingredient for scientific reproducibility and progress. I strive to publish all my resesarch code in online repositories, and I contribute to several open source projects. Python is my weapon of choice.</a>
+                    <h3 class="section-subheading text-muted">Software is the machinery for transforming raw data and ideas into scientific results.</h3>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    <p class="large text-muted">The scientific community is becoming increasingly aware that open access to research code is an essential ingredient for scientific reproducibility and progress. I strive to publish all my resesarch code in online repositories, and I contribute to several open source projects. Python is my weapon of choice.</p>
+                    <p class="large text-muted">The projects listed at right represent my reasonably well organized, well documented software packages suitable for general use. In addition, I have lots more code associated with specific papers and research projects available on my <a href="http://github.com/rabernat">github</a> and <a href="http://bitbucket.org/ryanaberanthey">bitbucket</a> sites.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="code">
+                        {% for code in site.data.codes %}
+                        <li>
+                            <h4><i class="fa fa-{{ code.network }}"></i> &nbsp;
+                            <a href="{{ code.url }}">{{code.name}}</a></h4>
+                            <p>{{code.description}}</p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>                
             </div>
         </div>
     </section>
 
+
+<!--- VISUALIZATION -->
+    <section id="video" class="{% cycle '', 'bg-light-gray' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Video</h2>
+                    <h3 class="section-subheading text-muted">Our human brains excell at identifying patterns from moving images. Video is an essential tool for my science.<br />See all of my videos on my <a href="https://vimeo.com/user3588357">Vimeo page</a>.</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for video in site.data.vimeos %}
+                <div class="col-md-6 text-center">
+                    <iframe src="https://player.vimeo.com/video/{{ video.id }}" width="540" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                {% endfor %}        
+            </div>
+        </div>
+    </section>
+    
+<!-- people Section -->
+    <section id="people" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Research Group</h2>
+                    <h3 class="section-subheading text-muted">These are the people who make the science.</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for member in site.data.people %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/{{ member.pic }}" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h3 class="section-subheading text-muted">Other Collaborators</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                {% for person in site.data.collaborators %}
+                <a href="{{ person.url }}">{{person.name}}</a> - 
+                {{ person.place }}{% if forloop.last %} &nbsp; {% else %}, {% endif %}
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
 

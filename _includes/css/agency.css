@@ -257,8 +257,8 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-/*        background-color: #222; */
-        background-color: rgba(24,24,24,1.0);;
+/*      changed it to stay transparent */
+        background-color: rgba(24,24,24,0.7);;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -357,6 +357,16 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+/* for my code list */
+
+ul.code {
+    list-style-type: none;
+}
+
+ul.code>li {
+    border-width: 1px;
+    border-bottom-style: dotted;
+}
 /* all these tags BELOW used to have a id */
 
 .portfolio-item {

@@ -1,32 +1,57 @@
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Ryan Abernathey
+  pic: ryan.jpg
+  position: Assistant Professor
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+   - title: envelope
+     url: mailto:rpa@ldeo.columbia.edu
+   - title: twitter
+     url: http://twitter.com/rabernat
+   - title: linkedin
+     url: https://www.linkedin.com/pub/ryan-abernathey/52/706/32a
+   - title: vimeo
+     url: https://vimeo.com/user3588357
+   - title: github
+     url: http://github.com/rabernat
+   - title: bitbucket 
+     url: http://bitbucket.org/ryanaberanthey
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Sjoerd Groeskamp
+  pic: sjoerd.jpg
+  position: Postdoc
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+   - title: envelope
+     url: mailto:sjoerd@ldeo.columbia.edu
+   - title: external-link
+     url: http://sjoerdgroeskamp.wix.com/
+
+- name: Anirban Sinha
+  pic: anirban.jpg
+  position: Grad Student
+  social:
+    - title: envelope
+      url: mailto:anirbancnha@gmail.com
+
+- name: Takaya Uchida
+  pic: takaya.jpg
+  position: Grad Student
+  social:
+    - title: envelope
+      url: mailto:takaya@ldeo.columbia.edu
+    - title: external-link
+      url: http://www.columbia.edu/~tu2140/
     - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+      url: https://www.linkedin.com/pub/takaya-uchida/b4/721/3a2/en
+    - title: github
+      url: https://github.com/roxyboy
+    - title: bitbucket
+      url: https://bitbucket.org/roxyboy/
+      
+- name: Omar Mahmood
+  pic: omar.jpg
+  position: Undergrad Intern
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: envelope
+      url: mailto:onm2000@columbia.edu    
+    - title: linkedin
+      url: https://www.linkedin.com/pub/omar-mahmood/9b/11b/219
+      
