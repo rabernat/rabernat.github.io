@@ -367,6 +367,26 @@ ul.code>li {
     border-width: 1px;
     border-bottom-style: dotted;
 }
+
+ul.collab {
+    list-style-type: none;
+}
+
+ul.collab>li {
+    display: inline;
+    margin: 0 5px 200px 0;
+    padding: 0px;
+    background-color: #ccc;
+    
+}
+
+.collaborator {
+    border-width: 1px;
+    border-style: dotted;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ddd;
+}
 /* all these tags BELOW used to have a id */
 
 .portfolio-item {
@@ -380,6 +400,7 @@ ul.code>li {
     margin: 0 auto;
     max-width: 400px;
 }
+
 
 .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;

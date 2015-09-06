@@ -172,14 +172,13 @@ layout: default
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                <ul class="collab">
                 {% for person in site.data.collaborators %}
-                <li><a href="{{ person.url }}">{{person.name}}</a>, {{ person.place }}</li>
-                
+                <div class="col-md-3"><div class="collaborator">
+                <a href="{{ person.url }}">{{person.name}}</a>
+                <br /><i class="fa fa-university"></i> &nbsp; {{ person.place }}
+                </div></div>                
                 <!-- >{{ person.place }}{% if forloop.last %} &nbsp; {% else %}, {% endif %} -->
                 {% endfor %}
-                </div>
             </div>
         </div>
     </section>
