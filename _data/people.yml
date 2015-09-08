@@ -12,7 +12,7 @@
      url: https://vimeo.com/user3588357
    - title: github
      url: http://github.com/rabernat
-   - title: bitbucket 
+   - title: bitbucket
      url: http://bitbucket.org/ryanaberanthey
 
 - name: Sjoerd Groeskamp
@@ -30,6 +30,12 @@
   social:
     - title: envelope
       url: mailto:anirbancnha@gmail.com
+    - title: external-link
+      url: https://www.researchgate.net/profile/Anirban_Sinha5
+    - title: github
+      url: https://github.com/anirban89
+    - title: bitbucket
+      url: https://bitbucket.org/anirban89/
 
 - name: Takaya Uchida
   pic: takaya.jpg
@@ -45,13 +51,12 @@
       url: https://github.com/roxyboy
     - title: bitbucket
       url: https://bitbucket.org/roxyboy/
-      
+
 - name: Omar Mahmood
   pic: omar.jpg
   position: Undergrad Intern
   social:
     - title: envelope
-      url: mailto:onm2000@columbia.edu    
+      url: mailto:onm2000@columbia.edu
     - title: linkedin
       url: https://www.linkedin.com/pub/omar-mahmood/9b/11b/219
-      
