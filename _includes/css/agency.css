@@ -271,7 +271,7 @@ header {
     color: #000;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
-    background-position: center center;
+    background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -282,6 +282,11 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+header .intro-text#blog {
+    padding-top: 140px;
+    padding-bottom: 10px;
 }
 
 header .intro-text .intro-lead-in {
@@ -329,6 +334,15 @@ section {
     padding: 100px 0;
 }
 
+section#blog {
+  padding: 40px 0;
+}
+
+section#cv {
+  padding: 40px 0;
+}
+
+
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
@@ -345,6 +359,54 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
 }
+
+section#blog h2.post-title {
+  margin-bottom: 25px;
+  background-color: #eee;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  line-height: 40px;
+  text-transform: none;
+}
+
+section#blog .content p {
+  font-size: 16px;
+}
+
+section#blog .author {
+  color: #999;
+}
+
+section#cv h2 {
+  margin-bottom: 25px;
+  background-color: #eee;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  line-height: 40px;
+  text-transform: none;
+}
+
+section#cv h3 {
+  font-weight: 300;
+  text-transform: none;
+}
+
+/* scale the whole CV smaller
+http://stackoverflow.com/questions/17898133/make-a-page-and-its-content-smaller
+*/
+/*
+section#cv {
+   -webkit-transform:scale(0.67);
+   -moz-transform:scale(0.67);
+   -ms-transform:scale(0.67);
+   transform:scale(0.67);
+   -ms-transform-origin:0 0;
+   -webkit-transform-origin:0 0;
+   -moz-transform-origin:0 0;
+   transform-origin:0 0;}
+*/
 
 @media(min-width:768px) {
     section {
@@ -377,7 +439,7 @@ ul.collab>li {
     margin: 0 5px 200px 0;
     padding: 0px;
     background-color: #ccc;
-    
+
 }
 
 .collaborator {
@@ -483,6 +545,7 @@ ul.collab>li {
 ol.bibliography {
     transform: rotate(180deg);
     list-style-position: outside;
+    margin-left: 30px;
 }
 
 ol.bibliography > li {

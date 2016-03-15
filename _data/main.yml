@@ -1,0 +1,40 @@
+contact:
+  name: Ryan Patrick Abernathey
+  title: Assistant Professor
+  department: Department of Earth and Environmental Sciences
+  institution: Columbia University / Lamont Doherty Earth Observatory
+  postal-address: 205C Oceanography, 61 Route 9W--PO Box 1000, Palisades, NY 10964-8000
+  email: rpa@ldeo.columbia.edu
+  website: http://rabernat.github.io
+
+education:
+  - degree: Ph.D., Climate Physics and Chemistry
+    institution: Massachusetts Institute of Technology
+    location: Cambridge, Massachusetts, USA
+    dates: Sept. 2006--Feb. 2012
+    thesis: Mixing by Ocean Eddies
+    advisor: John Marshall
+  - degree: B.A., Physics
+    institution: Middlebury College
+    location: Middlebury, Vermont, USA
+    dates: Sept. 2000--May 2004
+    thesis: Phase Dynamics and Synchronization of the Van der Pol Oscillator
+    advisor: Jeffrey Dunham
+
+appointments:
+  - title: Assistant Professor
+    institution: Columbia University / Lamont Doherty Earth Observatory
+    location: New York, New York, USA
+    dates: July 2013--present
+  - title: Postdoctoral Scholar
+    institution: Scripps Institution of Oceanography
+    location: La Jolla, California, USA
+    dates: June 2012--July 2013
+  - title: Postdoctoral Scholar
+    institution: Massachusetts Institute of Technology
+    location: Cambridge, Massachusetts, USA
+    dates: Feb. 2012--June 2012
+  - title: Graduate Research Assistant / Ph.D. Student
+    institution: Massachusetts Institute of Technology
+    location: Cambridge, Massachusetts, USA
+    dates: Sept. 2006--Feb. 2012
