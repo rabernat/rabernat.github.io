@@ -1,7 +1,9 @@
 ---
 ---
 {{ reference }}
+| <a href="papers/{{ entry.key }}.pdf">PDF</a>
 {% if entry.doi %}
 &rarr; <a href="http://doi.org/{{ entry.doi }}">online</a>
 {% endif %}
-| <a href="papers/{{ entry.key }}.pdf">PDF</a>
+<div data-badge-popover="right" data-badge-type="2" data-doi="{{ entry.doi }}"
+data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
