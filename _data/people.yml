@@ -52,11 +52,19 @@
     - title: bitbucket
       url: https://bitbucket.org/roxyboy/
 
-- name: Omar Mahmood
-  pic: omar.jpg
-  position: Undergrad Intern
+- name: Ci Zhang
+  pic: cizhang.jpg
+  position: Research Intern
   social:
     - title: envelope
-      url: mailto:onm2000@columbia.edu
+      url: mailto:ci.zhang@columbia.edu
+    - title: external-link
+      url: http://zhangci.bitbucket.org/
     - title: linkedin
-      url: https://www.linkedin.com/pub/omar-mahmood/9b/11b/219
+      url: https://linkedin.com/in/eapsclimate
+    - title: github
+      url: https://github.com/eapsclimate
+    - title: bitbucket
+      url: https://bitbucket.org/eapsclimate
+
+
