@@ -1,4 +1,10 @@
 invited:
+  - title: What are Ocean Eddies?
+    location: Rutgers University, New Brunswick, NJ
+    date: Oct. 2016
+  - title: Southern Ocean Water Mass Transformation Driven by Sea Ice
+    location: SUNY Stony Brook, Stony Brook, NY
+    date: Oct. 2016
   - title: Southern Ocean Water Mass Transformation Driven by Sea Ice
     location: Workshop on thermodynamic analysis for atmospheric and oceanic flows,
       NYU Abu Dhabi, Abu Dhabi, UAE
@@ -55,6 +61,14 @@ invited:
     date: March 2012
 
 conference:
+  - title: Lagrangian Coherent Structures and Eulerian Eddy Fluxes in the East
+           Pacific
+    location: AmeriMech Symposium on Fluid Transport and Nonlinear Dynamics,
+              WHOI, Woods Hole, MA
+    date: May 2016
+  - title: Online Diagnostics of Water Mass Transformation in MITgcm
+    location: ECCO Production meeting, MIT, Cambridge, MA
+    date: May 2016
   - title: Isopycnal Mixing and Ventillation Controlled by Winds
     location: CLIVAR Workshop on Translating Process Understanding
       to Improve Climate Models, Princeton, NJ

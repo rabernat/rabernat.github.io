@@ -1,7 +1,17 @@
 ---
 ---
 {{ reference }}
-| <a href="papers/{{ entry.key }}.pdf">PDF</a>
+
+{% assign filename = entry.key | append: ".pdf" %}
+{% for static_file in site.static_files %}
+    {% if static_file.path contains filename %}
+        {% assign pdf = true %}
+    {% endif %}
+{% endfor %}
+
+{% if pdf %}
+<a href="http://rabernat.github.io/papers/{{ filename }}">PDF</a>
+{% endif %}
 {% if entry.doi %}
 &rarr; <a href="http://doi.org/{{ entry.doi }}">online</a>
 {% endif %}
