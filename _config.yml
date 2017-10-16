@@ -1,6 +1,6 @@
 url: https://rabernat.github.io
 baseurl:
-gems: ['jekyll/scholar']
+plugins: ['jekyll/scholar']
 
 # Site settings
 title: Ryan Abernathey
