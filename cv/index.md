@@ -15,18 +15,18 @@ title: Curriculum Vitae
 
 ## Education ##
 {% for edu in site.data.main.education %}
-* _[{{ edu.dates}}]_ -- __{{ edu.degree }}__, {{ edu.institution }}, {{ edu.location }}    
+* _{{ edu.dates}}_ -- __{{ edu.degree }}__, {{ edu.institution }}, {{ edu.location }}    
   _thesis:_ {{ edu.thesis }}, _advisor:_ {{ edu.advisor }}
 {% endfor %}
 
 ## Appointments ##
 {% for apt in site.data.main.appointments %}
-* _[{{ apt.dates}}]_ -- __{{ apt.title }}__, {{ apt.institution }}, {{ apt.location }}    
+* _{{ apt.dates}}_ -- __{{ apt.title }}__, {{ apt.institution }}, {{ apt.location }}    
 {% endfor %}
 
 ## Awards ##
 {% for award in site.data.awards %}
-* _[{{ award.date }}]_ -- {{ award.name }}
+* _{{ award.date }}_ -- {{ award.name }}
 {% endfor %}
 
 ## Publications ##
@@ -38,9 +38,6 @@ title: Curriculum Vitae
 {% bibliography  --query @article %}
 
 ## Sponsored Projects ##
-
-For collaborative projects, award amounts represent the Columbia portion only.
-
 {% for project in site.data.projects %}
  * *{{project.code}}* -- {{project.amount}} ({{project.dates}}), {{project.role}} <br />
  {{project.title}}
