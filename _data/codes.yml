@@ -2,7 +2,7 @@
   network: github
   url: https://github.com/xgcm/xgcm
   description: 'A python package for the analysis of ocean general circulation model output. Builds on the fantastic <a href="https://github.com/xray/xray">xray</a> and <a href="https://github.com/ContinuumIO/dask">dask</a> projets to provide parallel, out-of-core scalability.'
-  
+
 - name: pyqg
   network: github
   url: https://github.com/pyqg/pyqg
@@ -13,7 +13,3 @@
   url: https://github.com/rabernat/floater
   description: 'Python package for turning <a href="http://mitgcm.org">MITgcm</a> model Lagrangian float output data into <a href="http://www.pytables.org/">PyTables</a> indexed HDF5 files.'
   
-- name: MITgcmdata
-  network: bitbucket
-  url: https://bitbucket.org/ryanaberanthey/mitgcmdata
-  description: 'Legacy package for working with <a href="http://mitgcm.org">MITgcm</a> model output data. I am in the process of replacing this with xgcm.'
