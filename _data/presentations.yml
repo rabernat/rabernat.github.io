@@ -1,4 +1,15 @@
 invited:
+  - title: Transport by Coherent Lagrangian Vortices
+    location: University of Washington, Seattle, WA
+    date: Oct. 2017
+  - title: Southern Ocean Water Mass Transformation Driven by Sea Ice
+    location: Southern Ocean Workshop, NCAR, Boulder, CO
+    date: Apr. 2017
+  - title: Eulerian eddy fluxes by coherent Lagrangian eddies in the ocean
+    location: "Transport in Unsteady Flows:  from Deterministic Structures to
+      Stochastic Models and Back Again, Banff International Research Station,
+      Banff, CA"
+    date: Jan. 2017
   - title: What are Ocean Eddies?
     location: Rutgers University, New Brunswick, NJ
     date: Oct. 2016
@@ -33,9 +44,6 @@ invited:
     location: Johns Hopkins University, Baltimore, MD
     date: May 2014
   - title: Topographic Enhancement of Eddy Efficiency in Baroclinic Equilibration
-    location: Johns Hopkins University, Baltimore, MD
-    date: May 2014
-  - title: Topographic Enhancement of Eddy Efficiency in Baroclinic Equilibration
     location: Courant Institute at New York University, New York, NY
     date: Apr. 2014
   - title: Topographic Enhancement of Eddy Efficiency in Baroclinic Equilibration
@@ -61,6 +69,9 @@ invited:
     date: March 2012
 
 conference:
+  - title: Transport by Coherent Lagrangian Vortices
+    location: AMS Atmosphere Ocean Fluid Dynamics Meeting, Portland, OR
+    date: June 2017
   - title: Lagrangian Coherent Structures and Eulerian Eddy Fluxes in the East
            Pacific
     location: AmeriMech Symposium on Fluid Transport and Nonlinear Dynamics,

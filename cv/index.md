@@ -47,7 +47,7 @@ title: Curriculum Vitae
 ## Teaching ##
 
 {% for course in site.data.courses %}
- * [{{course.title}}]({{ course.url }}) -- {{course.description}} ({{course.offered}})
+ * _[{{course.title}}]({{ course.url }})_ -- {{course.description}} ({{course.offered}})
 {% endfor %}
 
 
@@ -61,12 +61,12 @@ title: Curriculum Vitae
 
 ### Invited ###
 {% for pres in site.data.presentations.invited %}
-* _[{{ pres.date }}]_ -- {{ pres.title }}{% if pres.title %},{% endif %} {{ pres.location }}
+* _{{ pres.date }}_ -- {{ pres.title | prepend:'_' | append:'_' }}{% if pres.title %},{% endif %} {{ pres.location }}
 {% endfor %}
 
 ### Conference ###
 {% for pres in site.data.presentations.conference %}
-* _[{{ pres.date }}]_ -- {{ pres.title }}{% if pres.title %},{% endif %} {{ pres.location }}
+* _{{ pres.date }}_ -- {% if pres.title %}_{{ pres.title }}_,{% endif %} {{ pres.location }}
 {% endfor %}
 
 ## Service ##
