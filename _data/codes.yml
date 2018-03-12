@@ -1,15 +1,33 @@
 - name: xgcm
   network: github
   url: https://github.com/xgcm/xgcm
-  description: 'A python package for the analysis of ocean general circulation model output. Builds on the fantastic <a href="https://github.com/xray/xray">xray</a> and <a href="https://github.com/ContinuumIO/dask">dask</a> projets to provide parallel, out-of-core scalability.'
+  description: 'A python package for the analysis of finite-volume ocean
+      general circulation model output. Builds on
+      <a href="https://github.com/pydata/xarray">xarray</a> and
+      <a href="https://github.com/dask/dask">dask</a> projets to provide
+      parallel, out-of-core scalability.'
+
+- name: xmitgcm
+  network: github
+  url: https://github.com/xgcm/xmitgcm
+  description: 'A python package for reading MITgcm binary MDS files into
+    xarray data structures.'
+
+- name: xarray
+  network: github
+  url: https://github.com/pydata/xarray
+  description: 'A community-driven open source project to which I contribute.
+    Xarray provides data structres and computational methods for working with
+    labeled multidimensional numerical array data.'
+
+- name: xrft
+  network: github
+  url: https://github.com/rabernat/xrft
+  description: Fourier transforms on xarray data structures.
 
 - name: pyqg
   network: github
   url: https://github.com/pyqg/pyqg
-  description: 'A python quasigeostrophic model for turbulence simulations. Well documented and easy to use&mdash;ideal for students, but fast enough for real research.'
-
-- name: floater
-  network: github
-  url: https://github.com/rabernat/floater
-  description: 'Python package for turning <a href="http://mitgcm.org">MITgcm</a> model Lagrangian float output data into <a href="http://www.pytables.org/">PyTables</a> indexed HDF5 files.'
-  
+  description: 'A python quasigeostrophic model for turbulence simulations.
+    Well documented and easy to use&mdash;ideal for students, but fast enough
+    for real research.'
