@@ -1,6 +1,6 @@
 - name: Ryan Abernathey
   pic: ryan.jpg
-  position: Assistant Professor
+  position: Associate Professor
   social:
    - title: envelope
      url: mailto:rpa@ldeo.columbia.edu
@@ -15,18 +15,31 @@
    - title: bitbucket
      url: http://bitbucket.org/ryanaberanthey
 
-- name: Sjoerd Groeskamp
-  pic: sjoerd.jpg
-  position: Postdoc
+- name: Spencer Jones
+  pic: anon.png
+  position: postdoc
   social:
-   - title: envelope
-     url: mailto:sjoerd@ldeo.columbia.edu
-   - title: external-link
-     url: http://sjoerdgroeskamp.wix.com/
+    - title: envelope
+      url: mailto:spencerj@ldeo.columbia.edu
+    - title: external-link
+      url: http://pordlabs.ucsd.edu/csjones/
+    - title: github
+      url: https://github.com/cspencerjones
+    - title: youtube
+      url: https://www.youtube.com/channel/UCKYRnWzmV0CoGaW7Z1v4Uwg
+
+- name: Mu Xu
+  pic: anon.png
+  position: postdoc
+  social:
+    - title: envelope
+      url: muxu@ldeo.columbia.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/mu-xu-9305a864/
 
 - name: Anirban Sinha
   pic: anirban.jpg
-  position: Grad Student
+  position: Ph.D. Student
   social:
     - title: envelope
       url: mailto:anirbancnha@gmail.com
@@ -39,7 +52,7 @@
 
 - name: Takaya Uchida
   pic: takaya.jpg
-  position: Grad Student
+  position: Ph.D. Student
   social:
     - title: envelope
       url: mailto:takaya@ldeo.columbia.edu
@@ -52,19 +65,18 @@
     - title: bitbucket
       url: https://bitbucket.org/roxyboy/
 
-- name: Ci Zhang
-  pic: cizhang.jpg
-  position: Research Intern
+- name: Shanice Bailey
+  pic: bailey.jpg
+  position: Ph.D. Student
   social:
     - title: envelope
-      url: mailto:ci.zhang@columbia.edu
-    - title: external-link
-      url: http://zhangci.bitbucket.org/
-    - title: linkedin
-      url: https://linkedin.com/in/eapsclimate
+      url: mailto:stb2145@columbia.edu
     - title: github
-      url: https://github.com/eapsclimate
-    - title: bitbucket
-      url: https://bitbucket.org/eapsclimate
+      url: https://github.com/stb2145
 
-
+- name: Tongya Liu
+  pic: anon.png
+  position: Visiting Student
+  social:
+    - title: envelope
+      url: mailto:liutongya@sio.org.cn

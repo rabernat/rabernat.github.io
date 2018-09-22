@@ -28,7 +28,7 @@ layout: default
         {% endfor %}
     </div>
     </section>
-    
+
 
 <!-- TEACHING -->
     <section id="teaching" class="{% cycle '', 'bg-light-gray' %}">
@@ -80,7 +80,7 @@ layout: default
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>In Progress / Submitted</h3>
+                    <h3>Submitted</h3>
                     {% bibliography  --query @unpublished %}
                 </div>
 	        </div>
@@ -117,7 +117,7 @@ layout: default
                         </li>
                         {% endfor %}
                     </ul>
-                </div>                
+                </div>
             </div>
         </div>
     </section>
@@ -139,11 +139,11 @@ layout: default
                     <iframe src="https://player.vimeo.com/video/{{ video.id }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		   </div>
                 </div>
-                {% endfor %}        
+                {% endfor %}
             </div>
         </div>
     </section>
-    
+
 <!-- people Section -->
     <section id="people" class="bg-light-gray">
         <div class="container">
@@ -180,10 +180,9 @@ layout: default
                 <div class="col-md-3"><div class="collaborator">
                 <a href="{{ person.url }}">{{person.name}}</a>
                 <br /><i class="fa fa-university"></i> &nbsp; {{ person.place }}
-                </div></div>                
+                </div></div>
                 <!-- >{{ person.place }}{% if forloop.last %} &nbsp; {% else %}, {% endif %} -->
                 {% endfor %}
             </div>
         </div>
     </section>
-

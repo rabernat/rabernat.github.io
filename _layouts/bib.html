@@ -10,10 +10,13 @@
 {% endfor %}
 
 {% if pdf %}
-<a href="http://rabernat.github.io/papers/{{ filename }}">PDF</a>
+<a href="{{ site.url }}/papers/{{ filename }}">PDF</a>
 {% endif %}
 {% if entry.doi %}
 &rarr; <a href="http://doi.org/{{ entry.doi }}">online</a>
+{% endif %}
+{% if entry.note %}
+<em>({{ entry.note }})</em>
 {% endif %}
 <div data-badge-popover="right" data-badge-type="2" data-doi="{{ entry.doi }}"
 data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
