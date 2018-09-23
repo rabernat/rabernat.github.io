@@ -47,7 +47,7 @@ showing that a high-resolution global climate model partially resolved a
 previously hypothesized mixed-layer instability mechanism.
 _Busecke et al. (2017)_ found strong interannual variability in mesoscale
 mixing rates in the subtropical salinity maxima regions, and
-_Busecke and Abernathey (2017)_ expanded this approach to reveal large
+_Busecke and Abernathey (2018)_ expanded this approach to reveal large
 correlations between mixing rates across the Pacific and ENSO.
 These studies show that mesoscale processes are a dynamic part of the climate
 system, rather than simply a passive source of diffusion.
@@ -62,16 +62,36 @@ theory, have the potential to resolve long-standing debates about the relative
 importance of "trapping" versus "stirring" mechanisms in mesoscale transport.
 Our group, with our emphasis on software and big data tools, is uniquely poised
 to exploit these powerful but computationally demanding techniques.
-A paper now in revision _[Abernathey and Haller, 2017]_ uses one such
+A recently published paper _[Abernathey and Haller, 2017]_ uses one such
 technique applied to satellite data to quantify the trapped material transport
 due to coherent vortices across the Pacific basin.
-The results, which show that trapping makes a negligible
-contribution, directly challenge several recent high profile papers.
-Other work in progress on this topic includes a sensitivity analysis of the
-numerical method _[Zhang et al, 2017]_, an application to climate model
-simulations _[Tarshish et al, 2017]_, and an investigation into the role of
-submesoscales and internal waves in modulating Lagrangian transport barriers
-_[Sinha and Abernathey, 2017]_.
+I am particularly proud of this paper because it makes steps towards
+reconciling the Eulerian and Lagrangian perspectives on eddy transport, a
+fundamental theoretical challenge in fluid mechanics.
+With this new technique, we were able to show that trapping makes a negligible
+contribution to the total eddy transport, directly challenging several recent
+high profile papers.
+
+Having developed the tools for large-scale identification of Lagrangian
+Coherent Structures from observational and model data, we are now tackling a
+range of new problems.
+_[Tarshish et al, 2018]_, a paper by a Princeton post-graduate student which
+I was closely involved in supervision, applied this new technique to the
+GFDL CM2.6 high-resolution ocean / climate simulation and explored the
+parameter sensitivity of the method.
+In progress is a follow-up to this work which compares the statistics of eddies
+in the simulation with those found in satellite altimetry.
+
+Inspired by the SWOT mission, we are also using the framework of coherent
+structures to probe the limits of current generation altiemtry and prepare for
+the upcoming next generation. In _[Sinha, Balwada, and Abernathey, 2018]_,
+we investigated the role of submesoscales and internal waves in lateral
+transport using an extremely high resolution global numerical simulation
+(MITgcm LLC4320 1/48-degree), employing time filtering to remove high-frequency
+dynamics. This student publication reveals that contemporary altimetry products
+likely lead to an overestimation of the degree of mesoscale coherence because
+they are missing these fast-timescale motions.
+
 
 ## Southern Ocean Overturning Circulation
 

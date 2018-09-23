@@ -1,5 +1,14 @@
 invited:
   - title: Transport by Coherent Lagrangian Vortices
+    location: MIT PAOC Colloquium, Cambridge, MA
+    date: May 2018
+  - title: "Pangeo: An Open Source Platform for Big Data Geoscience"
+    location: Earth System Information Partners Conference, Washington, DC
+    date: Jan. 2018
+  - title: Transport by Coherent Lagrangian Vortices
+    location: Duke University, Durham, NC
+    date: Nov. 2017
+  - title: Transport by Coherent Lagrangian Vortices
     location: University of Washington, Seattle, WA
     date: Oct. 2017
   - title: Southern Ocean Water Mass Transformation Driven by Sea Ice
@@ -69,6 +78,15 @@ invited:
     date: March 2012
 
 conference:
+  - title: "Pangeo: An Open Source Platform for Big Data Geoscience"
+    location: Earthcube All Hand Meeting, Washington, DC
+    date: June 2018
+  - title: "Pangeo: An Open Source Platform for Big Data Geoscience"
+    location: AGU Ocean Sciences Meeting, Portland, OR
+    date: Feb. 2018
+  - title: Transport by Coherent Lagrangian Vortices
+    location: AGU Ocean Sciences Meeting, Portland, OR
+    date: Feb. 2018
   - title: Transport by Coherent Lagrangian Vortices
     location: AMS Atmosphere Ocean Fluid Dynamics Meeting, Portland, OR
     date: June 2017

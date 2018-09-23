@@ -1,6 +1,6 @@
 contact:
   name: Ryan Patrick Abernathey
-  title: Assistant Professor
+  title: Associate Professor
   department: Department of Earth and Environmental Sciences
   institution: Columbia University / Lamont Doherty Earth Observatory
   postal-address: 205C Oceanography, 61 Route 9W--PO Box 1000, Palisades, NY 10964-8000
@@ -22,6 +22,10 @@ education:
     advisor: Jeffrey Dunham
 
 appointments:
+  - title: Associate Professor
+    institution: Columbia University / Lamont Doherty Earth Observatory
+    location: New York, New York, USA
+    dates: July 2018--present
   - title: Assistant Professor
     institution: Columbia University / Lamont Doherty Earth Observatory
     location: New York, New York, USA
