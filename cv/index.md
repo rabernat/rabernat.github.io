@@ -31,7 +31,9 @@ title: Curriculum Vitae
 
 ## Publications ##
 
-### In Preparation / Submitted ###
+_Conventions used for co-author attribution:_ In physical oceanography, there is no hard convention about author order, other than the fact that the first author is the one who made the dominant contribution to the paper. Generally authors are listed in descending order of the magnitude of their contribution, and sometimes supervising PIs are listed last.
+
+### In Review ###
 {% bibliography  --query @unpublished %}
 
 ### Published / In Press ###

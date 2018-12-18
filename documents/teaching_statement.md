@@ -65,15 +65,21 @@ The broad interest from across the university showed that the need to education
 in this area exists in most science and education fields.
 
 The culmination of these efforts is a new, full credit DEES graduate course
-entitlted _Research Computing in Earth Science_. Taught jointly with Kerry
-Key, the course takes a systematic tour through all of the skills students need
+entitlted _Research Computing in Earth Science_. The first iteration in 2017
+was taught jointly with Kerry Key and incorporated MATLAB, Fortran, and Python.
+In 2018, I am the sole instructor, and the focus is exclusively on Python.
+The course takes a systematic tour through all of the skills students need
 to become functional researchers, including UNIX command line, version control,
-fundamentals of programming (in MATLAB, Fortran, and Python), ingestion and
+fundamentals of programming , ingestion and
 cleaning of data in various formats, basic analysis methods, visualization,
 mapping, and big-data concepts like parallel programming. All examples and
 assignments are drawn from real Earth Science datasets. The course enrollment
-was capped at 30, and registration filled up immediately. We are conducting
-formal assessment of our curriculum and teaching approach in conjunction with
+is capped at 30; it has been full both semesters, a testament to the strong
+demand from students.
+We are conducting ongoing formative and summative
+assessment of the curriculum and teaching approach in conjunction with
 an independent consultant. This assessment work, part of the educational
 component of my NSF CAREER award, should provide us a clear picture of the
 effectiveness and impact of this new approach to computing.
+It is noteworthy that this year's class is over 2/3 female, suggesting that
+education in computation is particularly valuable for underrepresented groups.

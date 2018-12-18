@@ -78,8 +78,17 @@ invited:
     date: March 2012
 
 conference:
+  - title: "Beyond netCDF: Cloud Native Climate Data with Zarr and XArray"
+    location: AGU Fall Meeting
+    date: December 2018
+  - title: "Global Changes in Mesoscale Eddy Kinetic Energy under Greenhouse Warming"
+    location: AGU Fall Meeting
+    date: December 2018
+  - title: "A Linearzied Heat Budget for the World Oceans"
+    location: ECCO Meeting
+    date: October 2018
   - title: "Pangeo: An Open Source Platform for Big Data Geoscience"
-    location: Earthcube All Hand Meeting, Washington, DC
+    location: Earthcube All Hands Meeting, Washington, DC
     date: June 2018
   - title: "Pangeo: An Open Source Platform for Big Data Geoscience"
     location: AGU Ocean Sciences Meeting, Portland, OR

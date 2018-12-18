@@ -99,7 +99,7 @@ In addition to mesoscale dynamics, I maintain a strong regional interest in the
 Southern Ocean, which has emerged in recent decades as the central node of the
 global ocean overturning system. An NSF-funded collaboration with
 colleagues at Scripps Institution of Oceanography (and affiliated with the
-large [SOCCOM Project](http://soccom.princeton.edu/)) involves the study of the
+large [SOCCOM Project](http://soccom.princeton.edu/)) involved the study of the
 thermodynamic processes involved in the upwelling of deep water in the Southern
 Ocean.
 This work has revealed the relative importance of isopycnal mixing
@@ -110,7 +110,7 @@ in groundbreaking high-resolution coupled climate model simulations
 _[Bishop et al., 2016; Newsom et al., 2016]_
 
 Our emphasis on thermodynamic processes is a novel element of our approach.
-Work with postdoc Groeskamp showed that cabelling, an obscure effect due to
+Work with postdoc Groeskamp showed that cabbelling, an obscure effect due to
 the nonlinear equation of state of seawater, likely plays a major role in
 the formation of Antarctic Intermediate Water _[Groeskamp et al., 2016]_.
 Another exciting discovery was the crucial role of Antarctic sea
@@ -118,7 +118,10 @@ ice in maintaining the upper branch of the Southern Ocean overturning
 circulation _[Abernathey et al., 2016]_.
 We have also recently provided a new description of the three-dimensional
 pathways of upwelling using a hybrid Lagrangian / water-mass-transformation
-method _[Tasmitt et al., 2017]_.
+method _[Tasmitt et al., 2018]_.
+New work is in progress in collaboration with colleagues as Los Alamos
+National Laboratory, applying water mass diagnostics to understand the role
+of sea ice in the new DOE E3SM climate model.
 
 ## Mesoscale Impacts on Climate and Ecosystems
 
@@ -138,25 +141,28 @@ cause the amplitude of ENSE to increase _[Gnanadesikan et al., 2017]_.
 Together, these results show that mesoscale mixing has a range of
 under-appreciated impacts on large-scale climate, opening the door to many
 future research questions.
+Furthermore, work by postdoc Groeskamp has revealed that subtle numerical issues
+related to how isopycnal mixing is calculated in ocean models can lead to
+significant errors in their estimates of important quantities such as ocean
+heat transport _[Groeskamp et al., 2018]_.
 
 We are also beginning to explore the role of small-scale transport processes
 on ocean ecosystems. In particular, via our NASA-sponsored work on the SWOT
 mission, we are developing a new series of simulations to model the vertical
 transport of heat, carbon, nutrients, and oxygen in two important regions:
 the Southern Ocean and the Arabian Sea. My Ph.D. student Takaya Uchida has
-just begun a new project investigating how mesoscale and submesoscale motions
+is now working on a new project investigating how mesoscale and submesoscale motions
 contribute to the supply of iron from the enriched waters of the deep Southern
 Ocean to the surface euphotic zone, where iron concentration is a limiting
-factor for primary productivity. Although still early, I am very excited
-about the potential for this work to make new connections between the physics
-and biology of the Southern Ocean.
+factor for primary productivity. I am  excited about the potential for this
+work to make new connections between the physics and biology of the Southern Ocean.
 
 ## Open Source Software for Big Data Oceanography
 
 A unique aspect of my research group is our strong emphasis on the development
 of open source software tools for handling the increasing flood of "big data"
 in oceanography and climate science in general.
-New observing technologies (satellites, autonomous platforms, etc.) are
+New observing technologies (satellites, autonomous platforms, etc.) and
 high resolution numerical simulations are now capable of producing petabytes
 (a million gigabytes) of data.
 There is enormous scientific potential in such datasets, especially for
@@ -168,20 +174,34 @@ Building on my strong track record within the scientific python community,
 I recently led a collaborative proposal between Lamont, NCAR, and Anaconda
 (a private software company) to further develop our emerging solution to the
 big data challenge. (The proposal was funded by the NSF Earthcube program.)
-This group, called [Pangeo](https://pangeo-data.github.io/), is developing
+This group, called [Pangeo](https://pangeio.io/), is developing
 a suite of tools that will allow researchers to use cloud computing (and other
 high-performance computing platforms) to work with extremely large datasets
-using familiar python-based tools. I strongly believe that these efforts
-will pay off in the long term by enabling our group to tackle some of the
-most challenging problems in oceanography.
+using familiar python-based tools.
 
+Since its inception just over a year ago, the Pangeo project has developed
+considerable momentum across Earth Science disciplines. The UK Met Office
+Informatics lab has started contributing significantly to the project, as have groups from
+USCS, GFDL, and NASA. Private companies such as Rhodium Group and Jupiter Intel
+are also adopting tools from Pangeo in the context of climate-based finance.
+I am optimistic that this is the beginning of sea change in how scientists
+interact with data, in which climate science can evolve in a more efficient,
+more reproducible, and more collaborative direction.
+
+## Mentoring
+
+I currently supervise three Ph.D. students. The most advanced, Anirban Sinha,
+is due to graduate in December 2018 and has a postdoc lined up at Caltech.
+Takaya Uchida will graduate next year, and Shanice Bailey just entered the
+program. I mentored one postdoc (Sjoerd Groeskamp) for two years; he has since
+moved to UNSW, Australia. Two other postdocs--Spencer Jones and Mu Xu--joined
+the group very recently. In terms of diversity, one student is an African
+American woman and one postdoc is transgender.
 
 ## By the Numbers
 
-* 21 publications, 4 under review, many others in preparation
-* 475 citations, h-index 11
-* 5 federal grants funded ($2.6M total)
-* 2 Ph.D. students supervised (both due to graduate next year)
-* One postdoc supervised (another arriving in spring)
+* 27 publications, 3 under review
+* 631 citations, h-index 13
+* 5 federal grants funded ($2.9M total)
 
 ![Google Scholar citations](citations.png)
