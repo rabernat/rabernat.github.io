@@ -188,20 +188,73 @@ I am optimistic that this is the beginning of sea change in how scientists
 interact with data, in which climate science can evolve in a more efficient,
 more reproducible, and more collaborative direction.
 
-## Mentoring
+## Mentoring Experience and Philosophy
 
-I currently supervise three Ph.D. students. The most advanced, Anirban Sinha,
-is due to graduate in December 2018 and has a postdoc lined up at Caltech.
-Takaya Uchida will graduate next year, and Shanice Bailey just entered the
-program. I mentored one postdoc (Sjoerd Groeskamp) for two years; he has since
-moved to UNSW, Australia. Two other postdocs--Spencer Jones and Mu Xu--joined
-the group very recently. In terms of diversity, one student is an African
-American woman and one postdoc is transgender.
+The goal of my mentoring is to help student achieve success in their chosen
+future careers, while maintaining a positive, supportive atmosphere.
+I believe that the main challenge students face in their professional
+and intellectual development is gaining independence.
+Their coursework can provide many of the practical skills and knowledge they
+need; my focus therefore is on helping to cultivate their ability to
+independently design and execute a research project.
+My approach to towards this goal is founded on the pedagogical theory of
+educational scaffolding.
+With scaffolding, students begin with highly structured experiences, guided
+closely by a mentor.
+As they progress, the "scaffolding," i.e. the constraints and assistance
+provided by the mentor, are slowly removed.
+At the end of this process, ideally, emerges an student capable of truly
+independent work.
+
+To put this theory into practice, I have all students begin research with a
+clearly defined project whose objectives and methodology are mostly designed by me.
+This helps then understand what goes into an actual research project.
+In the case of both senior students (Sinha and Uchida), this resulted in a
+published paper within the first 2 years of their Ph.D.
+For the next step, I ask students to define a subsequent study that builds on
+their initial success.
+I provide less top-down guidance for this project, although I continue to provide
+feedback and help with the execution.
+Hopefully, by the time this second project is nearly complete, the student is
+operating at a level close to a postdoc and can confidently design and execute
+the final part of their Ph.D research.
+(I am aiming for three papers per student.)
+
+Initially I was focused only on preparing students for academic research
+careers, but increasingly I am emphasizing the development of skills that
+have value in other career paths, such as industrial data science.
+This includes technical skills such as python programming, data visualization,
+and machine learning, as well as team skills like collaboration and communication.
+I actively encourage collaborations among different members of the research
+groups (e.g. between postdocs and students) so that students gain experience
+interacting with a wide range of colleagues at different experience levels.
+
+Below is a list of mentees:
+
+### Current Group Members
+
+- Takaya Uchida: 5th-year Ph.D. student, expected graduation fall 2019
+- Shanice Bailey: 1st-year Ph.D. student
+- Spencer Jones: Lamont Postdoctoral Research Fellow
+- Mu Xu: Postdoctoral Research Scientist
+
+### Group Alumni
+
+- Anirban Sinha: Ph.D. Dec., 2018; currently postdoc at Caltech
+- Sjoerd Groeskamp: Postdoc, 2015-2017; currently researcher at University of New South Wales
+- Ci Zhang: Short Term Casual Research Assistant, 2017; currently research
+  assistant at Tsinghua University
+
+
+In terms of diversity, one student is an African American woman and one postdoc
+is transgender.
+I am actively trying to find ways to improve the diversity of our group and
+empower students from under-represented groups to participate in research.
 
 ## By the Numbers
 
-* 27 publications, 3 under review
-* 631 citations, h-index 13
+* 28 publications, 3 under review
+* 707 citations, h-index 14
 * 5 federal grants funded ($2.9M total)
 
 ![Google Scholar citations](citations.png)
