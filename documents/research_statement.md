@@ -99,7 +99,7 @@ In addition to mesoscale dynamics, I maintain a strong regional interest in the
 Southern Ocean, which has emerged in recent decades as the central node of the
 global ocean overturning system. An NSF-funded collaboration with
 colleagues at Scripps Institution of Oceanography (and affiliated with the
-large [SOCCOM Project](http://soccom.princeton.edu/)) involved the study of the
+large [SOCCOM Project](https://soccom.princeton.edu/)) involved the study of the
 thermodynamic processes involved in the upwelling of deep water in the Southern
 Ocean.
 This work has revealed the relative importance of isopycnal mixing
@@ -174,7 +174,7 @@ Building on my strong track record within the scientific python community,
 I recently led a collaborative proposal between Lamont, NCAR, and Anaconda
 (a private software company) to further develop our emerging solution to the
 big data challenge. (The proposal was funded by the NSF Earthcube program.)
-This group, called [Pangeo](https://pangeio.io/), is developing
+This group, called [Pangeo](https://pangeo.io/), is developing
 a suite of tools that will allow researchers to use cloud computing (and other
 high-performance computing platforms) to work with extremely large datasets
 using familiar python-based tools.
