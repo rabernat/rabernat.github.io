@@ -22,13 +22,13 @@ social:
   - title: envelope
     url: mailto:rpa@ldeo.columbia.edu
   - title: twitter
-    url: http://twitter.com/rabernat
+    url: https://twitter.com/rabernat
   - title: vimeo
     url: https://vimeo.com/user3588357
   - title: github
-    url: http://github.com/rabernat
+    url: https://github.com/rabernat
   - title: bitbucket
-    url: http://bitbucket.org/ryanaberanthey
+    url: https://bitbucket.org/ryanaberanthey
 
 # Postal address (add as many lines as necessary)
 address:
