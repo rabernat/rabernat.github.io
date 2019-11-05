@@ -926,8 +926,8 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
+    margin: 5% 25% ;
+    padding: 50px 0;
     border: 0;
     border-radius: 0;
     text-align: center;
